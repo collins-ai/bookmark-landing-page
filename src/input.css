@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.listStyle {
+    border-bottom: 4px solid #f13c3c;
+}
+.arrowStyle {
+    color: #f13c3c;
+    transform: rotate(180deg);
+}
+.emailStyle {
+    border: 2px solid #f13c3c;
+}
+.errorImage {
+    position: absolute;
+    top: 20%;
+    right: 5px;
+    display: none;
+}
+.errorMessage {
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: small;
+    display: none;
+}
+.display {
+    display: block;
+}
+.displayNav {
+    display: flex;
+    flex-direction: column;
+}
