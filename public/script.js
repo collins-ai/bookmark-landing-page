@@ -6,17 +6,17 @@ const body = document.getElementById(`body`)
 let initial
 const container = [
   {
-    image: `images/illustration-features-tab-1.svg`,
+    image: `./public/images/illustration-features-tab-1.svg`,
     head: `Bookmark in one click`,
     body: `Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.`
   },
   {
-    image: `images/illustration-features-tab-2.svg`,
+    image: `./public/images/illustration-features-tab-2.svg`,
     head: `Intelligent search`,
     body: `Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.`
   },
   {
-    image: `images/illustration-features-tab-3.svg`,
+    image: `./public/images/illustration-features-tab-3.svg`,
     head: `Share your bookmarks`,
     body: `Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.`
   }
@@ -60,7 +60,7 @@ const errorMessage = document.createElement(`p`)
 const submit = document.getElementById(`submit`)
 
 input.appendChild(errorImage)
-errorImage.src = `images/icon-error.svg`
+errorImage.src = `./public/images/icon-error.svg`
 errorImage.classList.add(`errorImage`)
 input.appendChild(errorMessage)
 errorMessage.innerHTML = `Whoops, make sure it's an email`
