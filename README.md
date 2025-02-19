@@ -11,13 +11,14 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/collins-ai/bookmark-landing-page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://collins-ai.github.io/bookmark-landing-page/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Tailwind
+- JavaScript
 
 ## Author
 
